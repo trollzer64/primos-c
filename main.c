@@ -7,7 +7,7 @@ void main() {
 
 	do {
 		system("clear || cls");
-		printf("Insira um numero positivo: ");
+		printf("Insira um n%cmero positivo: ", 163);
 		scanf("%lu", &i);
 		setbuf(stdin, NULL);
 
@@ -22,12 +22,12 @@ void main() {
 		}
 
 		if (((m-1)%i != 0)||(m == 1)) {
-			printf("Seu numero nao eh primo\n");
+			printf("Seu numero n%co %c primo\n", 198, 130);
 		} else {
-			printf("Seu numero provavelmente eh primo\n");
+			printf("Seu numero provavelmente %c primo\n", 130);
 		}
 
-		printf("Continuar? (1=Sim/0=Nao)\n");
+		printf("Continuar? (1=Sim/0=N%co)\n", 198);
 		scanf("%lu", &j);
 		setbuf(stdin, NULL);
 
